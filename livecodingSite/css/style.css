@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Rubik&family=Sniglet&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --Snigle-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "Lobster", cursive;
+    --bggradient: linear-gradient(to bottom, #1E90FF, #6495ED)
+}
+
+header a{
+    font-size: 0.9em;
+    color: whitesmoke;
+    font-family: var(--Rubik);
+}
+
+header {
+    background: #1E90FF;
+    background: var(--bggradient);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #6495ED;
+    min-width: 137px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content .nav-link {
+    border-radius: 10px;
+}
+
+.dropdown-content .nav-link:hover {
+    background: white;
+    transition: 1s;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .first {
+    color: #1E90FF;
+} 
+
+header .nav-item:last-child {
+    margin-right: 4em;
+}
+header .navbar-brand {
+    padding-left: 5em;
+}
+
+header .nav-item {
+    border-radius: 10px;
+}
+
+header .nav-item:hover {
+    background-color: white;
+    transition: 1s;
+}
+
+.col-md-6 .panel {
+    position: absolute;
+    font-family: var(--Snigle-font);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+}
+
+
+
+
+/** {
+	margin: 0;
+	padding: 0;
+	font-family: 'Muli', sans-serif;
+	box-sizing: border-box;	
+}*/
+
+/**{
+    box-sizing: border-box;
+}
+
+.tile {
+			padding-bottom: 15px;
+			padding-left: 45px;
+}
+
+.cpp {
+			padding: 20px;
+}*/
+
+/*.bborder {
+	border:1px solid black;
+}
+
+.divider-text {
+	position: relative;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.divider-text span {
+	padding: 7px;
+	font-size: 12px;
+	position: relative;
+	z-index: 2;
+}
+
+.divider-text: after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	top: 55%;
+	left: 0;
+	z-index: 1;
+}
+
+.btn-facebook {
+	background-color: #405D9D !important;  
+	color: #fff !important;
+}
+
+.btn-gmail {
+	background-color: #ea4335 !important;  
+	color: #fff !important;
+}
+
+*/

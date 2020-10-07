@@ -1,0 +1,15 @@
+@media only screen and (max-width: 768px){
+    footer .row .col-md-5 img {
+        padding-bottom: 2vmin;
+    }
+
+    footer .row .col-md-4 .company {
+        padding-left: 0!important;
+    }
+}
+
+@media only screen and (max-width: 425px){   
+    header .navbar-brand {
+        padding-left: 1em!important;
+    }    
+}
